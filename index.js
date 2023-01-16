@@ -86,7 +86,7 @@ function btnFunc() {
             break;
 
         default:
-            output(chat[0],robot);
+            output(chat[chat.length - 2],'robot');
     }
 }
 
